@@ -27,6 +27,9 @@ window.mainloop()
 ## Tkinter Scale
 
 ## Tkinter OptionMenu
+
+![Tkinter Button Example](tkinter_option.png "Tkinter Option Example")
+
 ```python
 import tkinter as tk
 
