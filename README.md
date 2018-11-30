@@ -28,6 +28,32 @@ window.mainloop()
 
 ## Tkinter OptionMenu
 
+![Tkinter Button Example](tkinter_option.png "Tkinter Option Example")
+
+```python
+import tkinter as tk
+
+class View(tk.Tk):
+    def __init__(self):
+        tk.Tk.__init__(self)
+        # Fenster
+        self.title("Optionmenu-Demo")
+        self.geometry('240x80+400+100')
+        # Optionmenu
+        L = ['Pizza Diavolo','Pizza Margherita','Pizza quattro stagioni']
+        self.vS = tk.StringVar(master=self)
+        self.vS.set(L[2])
+        self.oS = tk.OptionMenu(self,self.vS,*L, command=self.cbOption)
+        self.oS = tk.OptionMenu(self, self.vS, *L, command=self.cbOption)
+        self.oS.place(x=20,y=20,width=200)
+
+    def cbOption(self,wert):
+        print(wert)
+
+v = View()
+v.mainloop()
+```
+
 ## Tkinter Dialogs
 
 ### Sourcecode Example
