@@ -38,6 +38,32 @@ window.mainloop()
 
 ## Tkinter Canvas
 
+```python
+from tkinter import *
+
+canvas_width = 200
+canvas_height =200
+python_pink = "#FD4BC9"
+
+master = Tk()
+
+w = Canvas(master,
+           width=canvas_width,
+           height=canvas_height)
+w.pack()
+
+points = [100, 140, 110, 110, 140, 100, 110, 90, 100, 60, 90, 90, 60, 100, 90, 110]
+
+w.create_polygon(points, outline=python_pink,
+            fill='purple', width=3)
+
+mainloop()
+
+```
+
+### Screenshot
+![Tkinter Canvas Example](tkinter-canvas.png "Tkinter Canvas Example")
+
 # Exercise
  - Create a fork of this repository
  - Clone your fork locally
