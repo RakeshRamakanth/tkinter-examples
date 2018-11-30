@@ -1,4 +1,4 @@
-# Tkinter Examples and Screenshots
+﻿# Tkinter Examples and Screenshots
 
 ## Tkinter Button
 
@@ -23,6 +23,37 @@ window.mainloop()
 
 
 ## Tkinter Menu and Menubutton
+
+### Source code example
+
+```python
+import tkinter
+
+
+top = Tk()
+
+mb=  Menubutton ( top, text="Auswahl", relief=RAISED )
+mb.grid()
+mb.menu =  Menu ( mb, tearoff = 0 )
+mb["menu"] =  mb.menu
+
+m1 = IntVar()
+m2 = IntVar()
+
+mb.menu.add_checkbutton ( label="Auswahl 1",
+                          variable=m1 )
+mb.menu.add_checkbutton ( label="Auswahl 2",
+                          variable=m2 )
+
+mb.pack()
+top.mainloop()
+
+```
+
+### Screenshot
+![Tkinter Menu Example](tkinter_menu.png "Tkinter MenuExample")
+
+### Sour
 
 ## Tkinter Scale
 
