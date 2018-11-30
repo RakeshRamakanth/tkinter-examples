@@ -32,10 +32,11 @@ window.mainloop()
 
 ### Sourcecode Example
 
+```python
 import tkinter.messagebox as mb
 
-result = mb.askquestion("¯\_(?)_/¯", "I bims 1 Dialog example")
-
+result = mb.askquestion("Â¯\_(?)_/Â¯", "I bims 1 Dialog example")
+```
 
 ### Screenshot
 ![Tkinter Dialog Example](tkinter_dialog.png "Tkinter Dialog Example")
