@@ -31,7 +31,6 @@ window.mainloop()
 =======
 
 ![Tkinter Button Example](tkinter_option.png "Tkinter Option Example")
->>>>>>> cb810ac837970628242e7e68fd9027c0e7b0cf9d
 
 ```python
 import tkinter as tk
