@@ -30,6 +30,16 @@ window.mainloop()
 
 ## Tkinter Dialogs
 
+### Sourcecode Example
+
+import tkinter.messagebox as mb
+
+result = mb.askquestion("¯\_(?)_/¯", "I bims 1 Dialog example")
+
+
+### Screenshot
+![Tkinter Dialog Example](tkinter_dialog.png "Tkinter Dialog Example")
+
 ## Tkinter Checkbutton
 
 ## Tkinter LabelFrame and RationButton
