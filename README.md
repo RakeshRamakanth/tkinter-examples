@@ -36,6 +36,34 @@ window.mainloop()
 
 ## Tkinter PanedWindow
 
+```python
+from tkinter import *
+
+window = Tk()
+window.title("PanedWindow Example")
+window.geometry("280x50")
+
+pw1 = PanedWindow()
+pw1.pack(fill=BOTH, expand=1)
+
+left = Label(pw1, text="left pane")
+pw1.add(left)
+
+pw2 = PanedWindow(pw1, orient=VERTICAL)
+pw1.add(pw2)
+
+top = Label(pw2, text="top pane")
+pw2.add(top)
+
+bottom = Label(pw2, text="bottom pane")
+pw2.add(bottom)
+
+mainloop()
+```
+
+### Screenshot
+![Tkinter Button Example](tkinter_paned_window.png "Tkinter Button Example")
+
 ## Tkinter Canvas
 
 # Exercise
