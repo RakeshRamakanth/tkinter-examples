@@ -28,7 +28,7 @@ window.mainloop()
 
 ## Tkinter OptionMenu
 
-![Tkinter Button Example](tkinter_option.png "Tkinter Option Example")
+![Tkinter Option Example](tkinter_option.png "Tkinter Option Example")
 
 ```python
 import tkinter as tk
@@ -69,7 +69,7 @@ result = mb.askquestion("¯\_(?)_/¯", "I bims 1 Dialog example")
 
 ## Tkinter Checkbutton
 
-## Tkinter LabelFrame and RationButton
+## Tkinter LabelFrame and RadioButton
 
 ### Source code example
 
