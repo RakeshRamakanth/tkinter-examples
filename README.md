@@ -27,7 +27,7 @@ window.mainloop()
 ## Tkinter Scale
 
 ## Tkinter OptionMenu
-
+```python
 import tkinter as tk
 
 class View(tk.Tk):
@@ -49,6 +49,7 @@ class View(tk.Tk):
 
 v = View()
 v.mainloop()
+```
 
 ## Tkinter Dialogs
 
