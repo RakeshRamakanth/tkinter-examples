@@ -62,7 +62,7 @@ mainloop()
 ```
 
 ### Screenshot
-![Tkinter Button Example](tkinter_paned_window.png "Tkinter Button Example")
+![Tkinter PanedWindow Example](tkinter_paned_window.png "Tkinter PanedWindow Example")
 
 ## Tkinter Canvas
 
