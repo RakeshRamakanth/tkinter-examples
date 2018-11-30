@@ -27,8 +27,6 @@ window.mainloop()
 ## Tkinter Scale
 
 ## Tkinter OptionMenu
-<<<<<<< HEAD
-=======
 
 ![Tkinter Button Example](tkinter_option.png "Tkinter Option Example")
 
