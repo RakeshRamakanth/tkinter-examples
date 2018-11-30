@@ -34,6 +34,30 @@ window.mainloop()
 
 ## Tkinter LabelFrame and RationButton
 
+### Source code example
+
+```python
+import tkinter as tk
+
+window = tk.Tk()
+window.title("LabelFrame Example")
+window.geometry("280x50")
+
+lf = tk.LabelFrame(window)
+lf.pack()
+
+rb1 = tk.Radiobutton(window, text="One", value=1).pack()
+rb2 = tk.Radiobutton(window, text="Two", value=2).pack()
+
+
+window.mainloop()
+
+
+```
+
+### Screenshot
+![Tkinter Radiobutton Example](tkinter_radiobutton.png "Tkinter Radiobutton Example")
+
 ## Tkinter PanedWindow
 
 ```python
