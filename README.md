@@ -28,7 +28,7 @@ window.mainloop()
 
 ## Tkinter OptionMenu
 
-![Tkinter Option Example](tkinter_option.png "Tkinter Option Example")
+![Tkinter Option Example](tkinter_option.PNG "Tkinter Option Example")
 
 ```python
 import tkinter as tk
