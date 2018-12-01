@@ -1,4 +1,4 @@
-﻿# Tkinter Examples and Screenshots
+# Tkinter Examples and Screenshots
 
 ## Tkinter Button
 
@@ -54,7 +54,6 @@ top.mainloop()
 ![Tkinter Menu Example](tkinter_menu.png "Tkinter MenuExample")
 
 ## Tkinter Scale
-![Tkinter Scale Example](tkinter_scale.png "Tkinter ScaleExample")
 
 ### Source code example
 
@@ -69,6 +68,9 @@ w.pack()
 
 mainloop()
 ```
+
+### Screenshot
+![Tkinter Scale Example](tkinter_scale.png "Tkinter ScaleExample")
 
 ## Tkinter OptionMenu
 
