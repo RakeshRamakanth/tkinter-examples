@@ -53,10 +53,10 @@ top.mainloop()
 ### Screenshot
 ![Tkinter Menu Example](tkinter_menu.png "Tkinter MenuExample")
 
-### Sour
-
 ## Tkinter Scale
 ![Tkinter Scale Example](tkinter_scale.png "Tkinter ScaleExample")
+
+### Source code example
 
 ```python
 from tkinter import *
@@ -72,7 +72,7 @@ mainloop()
 
 ## Tkinter OptionMenu
 
-![Tkinter Option Example](tkinter_option.PNG "Tkinter Option Example")
+### Source code example
 
 ```python
 import tkinter as tk
@@ -97,6 +97,9 @@ class View(tk.Tk):
 v = View()
 v.mainloop()
 ```
+
+### Screenshot
+![Tkinter Option Example](tkinter_option.PNG "Tkinter Option Example")
 
 ## Tkinter Dialogs
 
@@ -141,6 +144,8 @@ window.mainloop()
 
 ## Tkinter PanedWindow
 
+### Source code example
+
 ```python
 from tkinter import *
 
@@ -170,6 +175,8 @@ mainloop()
 ![Tkinter PanedWindow Example](tkinter_paned_window.png "Tkinter PanedWindow Example")
 
 ## Tkinter Canvas
+
+### Source code example
 
 ```python
 from tkinter import *
